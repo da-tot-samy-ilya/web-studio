@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Наши услуги</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+    <div class="black-screen"></div>
+    <form action="" class="form-order">
+        <img src="img/close.svg" alt="" class="form-order___close">
+        <p class="form-order__header">Заказать дизайн</p>
+        <input type="text" class="form-order__item form-order__item-1" placeholder="Имя">
+        <input type="text" class="form-order__item form-order__item-2" placeholder="Фамилия">
+        <input type="text" class="form-order__item form-order__item-3" placeholder="Емейл">
+        <textarea type="text" class="form-order__item form-order__item-4" placeholder="Опишите свой заказ в паре слов"></textarea>
+        <p class="form-order__text">* после подачи завки мы свяжемся с вами в течение одного рабочего дня</p>
+        <input type="submit" class="form-order__submit" value="Отправить">
+    </form>
+    <button class="top-scroll">
+        <img src="img/top-scroll.svg" alt="" class="top-scroll__arrow">
+    </button>
+    <header>
+        <div class="nav">
+            <div class="nav__logo-wrap">
+                <a href="index.html"><img class="nav__logo" src="img/menu/logoWhite.png" alt=""></a>
+            </div>
+            <div class="menu-miny__wrap">
+                <img src="img/menu/menu.svg" alt="" class="menu-miny">
+            </div>
+            <ul class="nav__item-wrap toggle-show">
+                <li class="nav__item__wrap nav__item__wrap-1"><a href="news.html" class="nav__item nav__item-1" id='1'>Новости</a></li>
+                <li class="nav__item__wrap nav__item__wrap-2"><a href="works.html" class="nav__item nav__item-2" id='2'>Портфолио</a>
+                    <ul class="nav__submenu nav__submenu-2">
+                        <li><a href="category.html" class="nav__submenu-item">Веб-дизайн</a></li>
+                        <li><a href="category.html" class="nav__submenu-item">Андроид</a></li>
+                        <li><a href="category.html" class="nav__submenu-item">Логотипы</a></li>
+                        <li><a href="category.html" class="nav__submenu-item">Сайты под "ключ"</a></li>
+                        <li><a href="category.html" class="nav__submenu-item">Установка CMS</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item__wrap nav__item__wrap-3"><a href="weDo.html" class="nav__item nav__item-3" id='3'>Услуги</a></li>
+                <li class="nav__item__wrap nav__item__wrap-6"><a href="studio-people.html" class="nav__item nav__item-6" id='6'>Студия</a>
+                    <ul class="nav__submenu nav__submenu-6">
+                        <li><a href="studio-people.html" class="nav__submenu-item">Люди</a></li>
+                        <li><a href="#" class="nav__submenu-item">Офис</a></li>
+                        <li><a href="studio-history.html" class="nav__submenu-item">История</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item__wrap nav__item__wrap-6"><a href="order-design.html" class="nav__item nav__item-6" id='6'>Заказать дизайн</a>
+                <li class="nav__item__wrap nav__item__wrap-7"><a href="#" class="nav__item nav__item-7" id='2'>Аккаунт</a>
+            </ul>
+        </div>
+    </header>
+    <div class="header">Наши услуги</div>
+    <div class="conditional">
+        <div class="conditional-post" id="web_design">
+            <div class="post-text">
+                <h1>
+                    Веб-дизайн
+                    <div class="rec rec-1 pink"></div>
+                </h1>
+                <p>При разработке уникального дизайна нами, естесственно учитывается далеко не только внешний вид вашего сайта. В процесс работы входит глубокий анализ самой работы компании, а также целевой аудитории, на основе чего уже строится пользовательский интерфейс.</p>
+                <p>Мы занимаемся как разработкой дизайна под ключ, так и можем доработать какие-либо элементы уже существующей концепции.</p>
+                <p>Если от нас требуются не только нарисованные макеты страниц, но и сами сверстанные страницы, в работе мы используем практически любые инструменты на ваш вкус: Bootstrap, Flexbox, Grid, Sass, Less, Vue.js, Reackt.js, Angular и многое другое.</p>
+                <div class="weDo-page__links">
+                    <a href="#" class="black-a black__pink-a">Заказать</a>
+                    <a href="#" class="pink-a bright-a">Примеры работ</a>
+                </div>
+            </div>
+            <img src="img/weDo-page/web-design.png" alt="">
+        </div>
+        <div class="conditional-post conditional-right" id="android">
+            <img src="img/weDo-page/andriod.png">
+            <div class="post-text">
+                <h1>
+                    Андроид
+                    <div class="rec rec-2 green"></div>
+                </h1>
+                <p>Мы занимаемся как созданием самих мобильных приложений под Андроид или доработкой уже существующих проектов, так и отдельно разработкой пользовательских интерфейсов в приложении, в частности внешнего вида приложения, а также в целом общей архитектуры, на основе изучения поведения пользователя внутри проектрируемого интерфейса.</p>
+                <p>В работе над проектами из этой области мы продолжаем использовать Java, но постепенно переходим на Kotlin.</p>
+                <div class="weDo-page__links">
+                    <a href="#" class="black-a black__green-a">Заказать</a>
+                    <a href="#" class="green-a bright-a">Примеры работ</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="conditional-post" id="sites_for_key">
+            <div class="post-text">
+                <h1>
+                    Сайты под ключ
+                    <div class="rec rec-3 orange"></div>
+                </h1>
+                <p>Здесь спектр запросов может быть огромен.</p>
+                <p>Обычные лендинги делаются впределах 1-2 недель. Вам нужно описать, что должно быть на странице, а мы это изящно оформляем в одном стиле, советуясь с вами в процессе.</p>
+                <p>Если речь идет о более масштабных заказах, например об интернет-магазинах, они проектируются напорядок дольше. В начале мы придумываем примерную архитектуру сервиса, т. е. какие должны быть страницы, что на них будет расположено, и как пользователь будет между ними перемещаться. Дальше мы разрабатываем фирменный дизайн для сайта. В конце концов мы утверждаем все с клиентом и принимаемся за реализацию.</p>
+                <div class="weDo-page__links">
+                    <a href="#" class="black-a black__orange-a">Заказать</a>
+                    <a href="#" class="orange-a bright-a">Примеры работ</a>
+                </div>
+            </div>
+            <img src="img/weDo-page/fullSites.png" alt="">
+        </div>
+        <div class="conditional-post conditional-right" id="style">
+            <img src="img/weDo-page/logo.png" alt="">
+            <div class="post-text">
+                <h1>
+                    Фирменный стиль
+                    <div class="rec rec-4 blue"></div>
+                </h1>
+                <p>К этой области нашей работы можно отнести разработку практически любого другого продукта, кроме как сайта. Так, например, отрисовка баннеров, дизайн упаковок, создание логотипов и многое другое.</p>
+                <div class="weDo-page__links">
+                    <a href="#" class="black-a black__blue-a">Заказать</a>
+                    <a href="#" class="blue-a bright-a">Примеры работ</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="conditional-post" id="cms">
+            <div class="post-text">
+                <h1>
+                    Настройка CMS
+                    <div class="rec rec-5 red"></div>
+                </h1>
+                <p>CMS (система управления контентом) – это «движок» Вашего сайта. Если Вы хотите самостоятельно настраивать параметры вашего сайта, добавлять или редактировать то, что на нем публикуется, без посредничества системного администратора, любая CMS позволит легко вам это сделать.</p>
+                <p>Вы можете обратиться к нам как с пожеланием как создать сайт с нуля на основе нужной Вам CMS, так и доработать уже начатый проект. Мы работаем с двумя наиболее популярными системами управления на сегодняшний день: Joomla! и Wordpress.</p>
+                <p>Мы рекомендуем использовать такие громоздкие инструменты для крупных проектов, таких как интернет-магазины, но при вашем желании адаптацию мы можем совершить и для менее больших сайтов.</p>
+                <div class="weDo-page__links">
+                    <a href="#" class="black-a black__red-a">Заказать</a>
+                    <a href="#" class="red-a bright-a">Примеры работ</a>
+                </div>
+            </div>
+            <img src="img/weDo-page/cms.png" alt="">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="footer-contact">
+                <div class="footer-contact___item footer-contact___item-header">Контактная информация</div>
+                <div class="footer-contact___item">+79193647165</div>
+                <div class="footer-contact___item">mrborodachmolodetc6097@gmail.com</div>
+                <div class="footer-contact___item">г. Екатеринбург, ул. Данилы Зверева, 30</div>
+                <div class="footer-rel">
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/FLHunt.png"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/behance.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/dribbble.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/linkedin.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/vk.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/telegram.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/instagram.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-studio">
+                <a href="studio-history.html" class="footer__item">Студия</a>
+                <a href="studio-history.html" class="footer__item">История</a>
+                <a href="#" class="footer__item">Офис</a>
+                <a href="studio-people.html" class="footer__item">Люди</a>
+            </div>
+            <div class="footer-else">
+                <a href="works.html" class="footer__item">Портфолио</a>
+                <a href="category.html" class="footer__item">Веб-Дизайн</a>
+                <a href="category.html" class="footer__item">Андроид</a>
+                <a href="category.html" class="footer__item">Сайты под "Ключ"</a>
+                <a href="category.html" class="footer__item">Логотипы</a>
+                <a href="category.html" class="footer__item">Установка CMS</a>
+            </div>
+            <div class="footer-price">
+                <a href="order-design.html" class="footer__item">Заказать дизайн</a>
+                <a href="weDo.html" class="footer__item">Услуги</a>
+                <a href="news.html" class="footer__item">Новости</a>
+            </div>
+        </div>
+        <div class="footer-copy">&copy; 2018 - 2019 <a href="index.html">Oranje</a></div>
+    </footer>
+<script src="libs/jQuery.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oranje</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav__logo-wrap">
+                <img class="nav__logo" src="img/menu/logoWhite.png" alt="">
+            </div>
+            <div class="menu-miny__wrap">
+                <img src="img/menu/menu.svg" alt="" class="menu-miny">
+            </div>
+            <ul class="nav__item-wrap toggle-show">
+                <li class="nav__item__wrap nav__item__wrap-1"><a href="news.html" class="nav__item nav__item-1" id='1'>Новости</a></li>
+                <li class="nav__item__wrap nav__item__wrap-2"><a href="works.html" class="nav__item nav__item-2" id='2'>Портфолио</a>
+                    <ul class="nav__submenu nav__submenu-2">
+                        <li><a href="category.html" class="nav__submenu-item">Веб-дизайн</a></li>
+                        <li><a href="category.html" class="nav__submenu-item">Андроид</a></li>
+                        <li><a href="category.html" class="nav__submenu-item">Логотипы</a></li>
+                        <li><a href="category.html" class="nav__submenu-item">Сайты под "ключ"</a></li>
+                        <li><a href="category.html" class="nav__submenu-item">Установка CMS</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item__wrap nav__item__wrap-3"><a href="weDo.html" class="nav__item nav__item-3" id='3'>Услуги</a></li>
+                <li class="nav__item__wrap nav__item__wrap-6"><a href="studio-people.html" class="nav__item nav__item-6" id='6'>Студия</a>
+                    <ul class="nav__submenu nav__submenu-6">
+                        <li><a href="studio-people.html" class="nav__submenu-item">Люди</a></li>
+                        <li><a href="#" class="nav__submenu-item">Офис</a></li>
+                        <li><a href="studio-history.html" class="nav__submenu-item">История</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item__wrap nav__item__wrap-6"><a href="order-design.html" class="nav__item nav__item-6" id='6'>Заказать дизайн</a>
+                <li class="nav__item__wrap nav__item__wrap-7"><a href="#" class="nav__item nav__item-7" id='2'>Аккаунт</a>
+            </ul>
+        </div>
+    </header>
+    <div class="order-design">
+        <img src="img/order-design/backgrounds-img/7.jpg" class="order-design__img">
+        <div class="order-design__cover"></div>
+        <div class="order-design__work-part">
+            <div class="order-design__info">
+                <p class="header question">За что я плачу свои деньги?</p>
+                <div class="order-design__info-option-wrap">
+                    <div class="order-design__info-option order-design__info-option-1">Общий план работы</div>
+                    <p>|</p>
+                    <div class="order-design__info-option order-design__info-option-2">Наши условия</div>
+                </div>
+                <div class="order-design__info-text-wrap">
+                    <div class="order-design__info-text order-design__info-text-1">
+                        <p>1.  Обращение</p>
+                        <p>Вы можете обратиться к нам как на сайте, так и через любые социальные сети, где есть наш аккаунт.</p>
+                        <p>2.  Анализ заказа</p>
+                        <p>Мы изучаем техническое задание проекта и выставляем начальное предложение цены и сроков (в этом плане мы всегда идем на уступки своим клиентам) в ответе на указанный вами адрес электронной почты или на любой другой указанный Вами контакт.</p>
+                        <p>3.  Приход к компромиссу и начало работы</p>
+                        <p>Мы окончательно договариваемся с Вами о цене и сроках и начинаем усердную работу!</p>
+                        <p>4.  Процесс разработки</p>
+                        <p>В этот период на каждом из этапов, при надобности, мы отчитываемся о проделанной работе, дабы избежать недопонимания.</p>
+                        <p>5.  Окончательные правки</p>
+                        <p>Мы представляем Вам окончательный результат и, при необходимости, делаем завершающие штрихи.</p>
+                        <p>6.  Оплата</p>
+                        <p>Ну и в самом конце работы мы любезно попросим оплату.</p>
+                    </div>
+                    <div class="order-design__info-text order-design__info-text-2">
+                        <p>1.  Никакой предоплаты</p>
+                        <p>2.  Неограниченное число правок</p>
+                        <p>3.  Дальнейшая поддержка в будущем</p>
+                        <p>4.  Постоянно на связи</p>
+                        <p>5.  Скидки при повторном обращении</p>
+                    </div>
+                </div>
+            </div>
+            <div class="order-design__form">
+                <div class="order-design__form-header">Заказать дизайн</div>
+                <form action="#" method="POST">
+                    <input class="order-design__form-input" type="text" placeholder="Имя, фамилия">
+                    <input class="order-design__form-input" type="text" placeholder="Емейл">
+                    <textarea class="order-design__form-input" name="" placeholder="Сообщение" id="" cols="30" rows="10"></textarea>
+                    <input class="order-design__form-file" type="file" name="file" id="file" placeholder="Емейл">
+                    <label class="order-design__form-label" for="file">Прикрепить файл</label>
+                    <p>* Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных</p>
+                    <input class="order-design__form-button" type="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="footer-contact">
+                <div class="footer-contact___item footer-contact___item-header">Контактная информация</div>
+                <div class="footer-contact___item">+79193647165</div>
+                <div class="footer-contact___item">mrborodachmolodetc6097@gmail.com</div>
+                <div class="footer-contact___item">г. Екатеринбург, ул. Данилы Зверева, 30</div>
+                <div class="footer-rel">
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/FLHunt.png"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/behance.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/dribbble.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/linkedin.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/vk.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/telegram.svg"></a>
+                    </div>
+                    <div class="footer-rel-h">
+                        <a href="#"><img src="img/footer/instagram.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-studio">
+                <a href="studio-history.html" class="footer__item">Студия</a>
+                <a href="studio-history.html" class="footer__item">История</a>
+                <a href="#" class="footer__item">Офис</a>
+                <a href="studio-people.html" class="footer__item">Люди</a>
+            </div>
+            <div class="footer-else">
+                <a href="works.html" class="footer__item">Портфолио</a>
+                <a href="category.html" class="footer__item">Веб-Дизайн</a>
+                <a href="category.html" class="footer__item">Андроид</a>
+                <a href="category.html" class="footer__item">Сайты под "Ключ"</a>
+                <a href="category.html" class="footer__item">Логотипы</a>
+                <a href="category.html" class="footer__item">Установка CMS</a>
+            </div>
+            <div class="footer-price">
+                <a href="order-design.html" class="footer__item">Заказать дизайн</a>
+                <a href="weDo.html" class="footer__item">Услуги</a>
+                <a href="news.html" class="footer__item">Новости</a>
+            </div>
+        </div>
+        <div class="footer-copy">&copy; 2018 - 2019 <a href="index.html">Oranje</a></div>
+    </footer>
+    <script src="libs/jQuery.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
